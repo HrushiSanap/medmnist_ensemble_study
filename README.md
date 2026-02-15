@@ -98,6 +98,34 @@ preds = np.load('predictions/bloodmnist/ConvNeXtBase_preds.npy')
 print(f"Prediction shape: {preds.shape}")  # Expected: (3421, 8)
 ```
 
+## Trained Model Checkpoints
+
+The official trained model weights (approx. 21 GB total) are available for download in the **[Releases](https://github.com/HrushiSanap/medmnist_ensemble_study/releases/tag/v1.0.0)** section. These checkpoints allow for full reproducibility of the specific performance metrics reported in the paper.
+
+### Architecture Support
+- **ConvNeXt-Base** (`ConvNeXtBase`)
+- **Vision Transformer** (`ViT-Base`)
+- **EfficientNetV2-M** (`EfficientNetV2M`)
+- **InceptionResNetV2** (`InceptionResNetV2`)
+
+### Naming Convention
+Files are named using the format: `[architecture]_[dataset].keras`
+* **Example:** `ConvNeXtBase_bloodmnist.keras`
+
+### Usage (Python)
+You do **not** need to download all 16 models. Download only the specific file required for your analysis from the Release page.
+
+```python
+import tensorflow as tf
+
+# Example: Load the BloodMNIST ConvNeXt model
+# Ensure you have downloaded 'ConvNeXtBase_bloodmnist.keras' from Releases
+model_path = 'ConvNeXtBase_bloodmnist.keras'
+model = tf.keras.models.load_model(model_path)
+
+print(model.summary())
+```
+
 ## Visualization Reference
 
 Generated plots are organized by experimental stage. Each dataset folder contains performance metrics visualized through confusion matrices, reliability diagrams, and entropy distributions.
