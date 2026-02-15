@@ -1,0 +1,8 @@
+numpy
+pandas
+matplotlib
+seaborn
+tqdm
+medmnist
+tensorflow>=2.10
+scikit-learn
