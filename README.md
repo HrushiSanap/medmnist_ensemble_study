@@ -158,15 +158,17 @@ This approach allows complete verification of results without computational over
 
 ## Citation
 
-If you use this code or findings in your research, please cite:
+If you use this code or our "Validation Starvation" findings in your research, please cite our work. 
+(Note: This citation will be updated once the paper is accepted for publication.)
 
 ```bibtex
 @misc{medmnist_ensemble_study,
-  author = {Sanap, Hrushi},
+  author = {Sanap, Hrushikesh},
   title = {Validation Starvation vs. Data Abundance: Ensemble Strategies for Medical Image Classification},
-  year = {2025},
+  year = {2026},
   publisher = {GitHub},
-  url = {https://github.com/HrushiSanap/medmnist_ensemble_study}
+  howpublished = {\url{[https://github.com/HrushiSanap/medmnist_ensemble_study](https://github.com/HrushiSanap/medmnist_ensemble_study)}},
+  note = {Preprint / Codebase}
 }
 ```
 
