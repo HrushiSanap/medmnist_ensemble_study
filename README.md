@@ -1,6 +1,5 @@
 # MedMNIST+ Ensemble Study
 
-**Official implementation of "Validation Starvation vs. Data Abundance"**
 
 This repository provides the complete experimental codebase, trained model predictions, and generated visualizations for benchmarking heterogeneous ensemble strategies on the MedMNIST v2 collection. The study evaluates state-of-the-art deep learning architectures and proposes decision heuristics for selecting between parameter-free ensemble methods and meta-learning approaches based on validation set availability.
 
