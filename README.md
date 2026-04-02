@@ -140,7 +140,7 @@ Visualization files use numeric identifiers in their filenames:
 | 2 | ViT-Base | Base Model | Vision Transformer (ImageNet-21k pre-trained) |
 | 3 | EfficientNetV2-M | Base Model | Efficiency-optimized convolutional network |
 | 4 | InceptionResNetV2 | Base Model | Multi-scale architecture with residual connections |
-| 5 | Rigorous Stacking | Ensemble | Logistic regression meta-learner trained on validation predictions |
+| 5 | Rigorous Stacking | Ensemble | Multi-Layer Perceptron meta-learner trained on validation predictions |
 
 **Example**: The file `plots/03_dermamnist/derma5.png` contains visualizations for the stacking ensemble (ID=5) on the DermaMNIST dataset.
 
