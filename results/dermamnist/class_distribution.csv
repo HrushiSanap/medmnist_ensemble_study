@@ -1,0 +1,8 @@
+Class ID,Class Name,Train,Val,Test,Total,% of Total
+0,actinic keratoses and intraepithelial carcinoma,228,33,66,327,3.27
+1,basal cell carcinoma,359,52,103,514,5.13
+2,benign keratosis-like lesions,769,110,220,1099,10.97
+3,dermatofibroma,80,12,23,115,1.15
+4,melanoma,779,111,223,1113,11.11
+5,melanocytic nevi,4693,671,1341,6705,66.95
+6,vascular lesions,99,14,29,142,1.42
