@@ -1,10 +1,19 @@
 # Beyond Accuracy: Calibration and Uncertainty in Multi-Architecture Ensembles for MedMNIST Classification
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20990733.svg)](https://doi.org/10.5281/zenodo.20990733)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Status](https://img.shields.io/badge/status-preprint%20under%20revision-orange)
+![Python](https://img.shields.io/badge/Python-3.10-3776AB?logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.19-FF6F00?logo=tensorflow&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)
+![Dataset](https://img.shields.io/badge/dataset-MedMNIST%20v2-1f6feb)
+[![Model weights](https://img.shields.io/badge/weights-GitHub%20Releases-black?logo=github)](https://github.com/HrushiSanap/medmnist_ensemble_study/releases)
+
 This repository provides the complete experimental codebase, pre-computed model predictions, numeric results, and generated figures for a study of heterogeneous deep-learning ensembles on the MedMNIST v2 collection. The work evaluates four architecturally diverse networks and two ensemble strategies across four medical imaging modalities at 224 x 224 resolution, and scores each configuration on the quality and structure of its predictive probabilities as well as on accuracy.
 
 **Author:** Hrushikesh Sanap (independent researcher), Chhatrapati Sambhajinagar, India.
 
-**Status:** preprint under revision. This is a major-revision resubmission to *Neural Computing and Applications* (NCAA, Springer). The numeric findings here reflect a full re-run of every experiment and supersede the original preprint. The preprint is archived on Zenodo at [10.5281/zenodo.18813204](https://doi.org/10.5281/zenodo.18813204).
+**Status:** preprint under revision. This is a major-revision resubmission to *Neural Computing and Applications* (NCAA, Springer). The numeric findings here reflect a full re-run of every experiment and supersede the original preprint. The preprint is archived on Zenodo at [10.5281/zenodo.20990733](https://doi.org/10.5281/zenodo.20990733).
 
 > This is research code released for transparency and reproducibility. It uses public benchmark data and is not a clinical tool. None of the results should be read as a claim of clinical performance.
 
